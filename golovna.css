@@ -1,0 +1,167 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	
+	background-image:url(cloud.jpg);
+}
+#wrapper{
+	
+	display:block;
+	width:1200px;
+	height:900px;
+}
+	
+
+header {
+	position:absolute;
+	top:0px;	
+	height:48px;
+	width:1348px;
+	background:#806B6B;
+	opacity:0.5;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#header_nav {
+	position:relative;
+	overflow:hidden;
+	height:45px;
+	margin:20px 0;
+	text-align:center;
+}
+#header_nav ul {
+	display:inline-block;
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	
+	
+}
+
+#header_nav ul li {
+	float:right;
+	margin: 0px 10px;
+	background:#EF8C8E;	
+	border-radius: 20px;
+	
+}
+#header_nav ul li a {
+	display:inline-block;
+	text-decoration:none;
+	padding:5px 50px;
+	border-radius: 20px;
+    background-color:#444;
+	color:#FFFFFF;
+
+}
+li {
+	list-style-type:none;
+}
+
+.logo {
+	position:absolute;
+	margin:4px 30px;
+	top:35px;
+	opacity:0.9;
+}
+
+.logo img {
+	width:70px;
+	
+}
+article {
+	position: absolute;
+	top:150px;
+	left:610px;
+	height:18px;
+	width:100px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+#city {
+	font-size:40px;
+	
+	}
+			
+
+
+section {
+	position: absolute;
+	
+	top:350px;
+	left:350px;
+	height:310px;
+	width:640px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
+
+.night {
+	display:block;
+	height:300px;
+	width:150px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	border-radius:20px;
+	background-image:url(night.jpg);
+	color:#68BFCA;
+	border: solid 1px #000000;
+	margin:2px;
+}
+
+.morning {
+	display:block;
+	height:300px;
+	width:150px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	border-radius:20px;
+	background-image:url(morning.jpg);
+	color:#68BFCA;
+	border: solid 1px #000000;
+	margin:1px;
+}
+.day {
+	display:block;
+	height:300px;
+	width:150px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	border-radius:20px;
+	background-image:url(day.jpg);
+	color:#68BFCA;
+	border:solid 1px #000000;
+	margin:1px;
+	
+}
+.evening {
+	display:block;
+	height:300px;
+	width:150px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	border-radius:20px;
+	background-image:url(evening.png);
+	color:#68BFCA;
+	border: solid 1px #000000;
+	margin:1px;
+}
+footer {
+	position:absolute;
+	top:900px;	
+	height:48px;
+	width:1348px;
+	background:#806B6B;
+	
+	opacity:0.5;
+	}
+	
+
+	
