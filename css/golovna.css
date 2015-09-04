@@ -4,7 +4,7 @@
 }
 body {
 	
-	background-image:url(cloud.jpg);
+	background-image:url(../images/cloud.jpg);
 }
 #wrapper{
 	
@@ -107,7 +107,7 @@ section {
 	text-align:center;
 	padding:2px;
 	border-radius:20px;
-	background-image:url(night.jpg);
+	background-image:url(../images/night.jpg);
 	color:#68BFCA;
 	border: solid 1px #000000;
 	margin:2px;
@@ -121,7 +121,7 @@ section {
 	text-align:center;
 	padding:2px;
 	border-radius:20px;
-	background-image:url(morning.jpg);
+	background-image:url(../images/morning.jpg);
 	color:#68BFCA;
 	border: solid 1px #000000;
 	margin:1px;
@@ -134,7 +134,7 @@ section {
 	text-align:center;
 	padding:2px;
 	border-radius:20px;
-	background-image:url(day.jpg);
+	background-image:url(../images/day.jpg);
 	color:#68BFCA;
 	border:solid 1px #000000;
 	margin:1px;
@@ -148,7 +148,7 @@ section {
 	text-align:center;
 	padding:2px;
 	border-radius:20px;
-	background-image:url(evening.png);
+	background-image:url(../images/evening.PNG);
 	color:#68BFCA;
 	border: solid 1px #000000;
 	margin:1px;

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<link rel="stylesheet" href="golovna.css" type="text/css">
+<link rel="stylesheet" href="css/golovna.css" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
 <title>Good Weather</title>
 </head>
@@ -22,8 +22,6 @@
        <li><a href="#">About</a></li>
        <li><a href="index.html">Home</a></li>
 </ul>
-<form 
-
 </div>
 </div>
 <div class="logo">
@@ -31,6 +29,8 @@
 <img src="sun.PNG" alt="Sun">
 </a>
 </div>
+<form method="get" action="/search" target="_blank">
+<input name="q" id="poisk" value="" placeholder="Choose your city"> <input src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png" type="image" /></form>
 </header>
 <article>
 <div id="city">
@@ -56,6 +56,14 @@
 </section>
 
 
-</body>
 <footer></footer>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+<script type="text/javascript" src="JS/getCurrentWeather.js"</script>
+<script type="text/javascript" src="JS/getWeatherbyCity.js"</script>
+<script type="text/javascript" src="JS/javascript.js"</script>
+</body>
+
+
+
 </html>

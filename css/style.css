@@ -4,7 +4,7 @@
 }
 body {
 	
-	background-image:url(cloud.jpg);
+	background-image:url(../images/cloud.jpg);
 }
 #wrapper{
 	
@@ -170,7 +170,10 @@ footer {
 	height:48px;
 	width:1348px;
 	background:#806B6B;
-	
 	opacity:0.5;
-	}
-		
+}
+form  {
+	display:absolute;
+	width:80px;
+}
+ 
