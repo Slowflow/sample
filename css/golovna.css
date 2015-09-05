@@ -99,7 +99,7 @@ section {
 	
 }
 
-.night {
+#night {
 	display:block;
 	height:300px;
 	width:150px;
@@ -113,7 +113,7 @@ section {
 	margin:2px;
 }
 
-.morning {
+#morning {
 	display:block;
 	height:300px;
 	width:150px;
@@ -126,7 +126,7 @@ section {
 	border: solid 1px #000000;
 	margin:1px;
 }
-.day {
+#day {
 	display:block;
 	height:300px;
 	width:150px;
@@ -140,7 +140,7 @@ section {
 	margin:1px;
 	
 }
-.evening {
+#evening {
 	display:block;
 	height:300px;
 	width:150px;
@@ -162,6 +162,10 @@ footer {
 	
 	opacity:0.5;
 	}
-	
+	#poisk {
+		position:absolute;
+		float:right;
+		width:500px;
+	}
 
 	

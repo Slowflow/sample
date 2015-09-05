@@ -23,34 +23,46 @@
        <li><a href="index.html">Home</a></li>
 </ul>
 </div>
-</div>
-<div class="logo">
+<form id="cityNameForm">
+<button type="button" id="btnWeather" value="Show">Search</button><input type="text" name="cityName" placeholder="Choose your city" id="inputCityName">
+                        
+                
+</form>
+
+<div id="logo">
 <a href="index.html">
-<img src="sun.PNG" alt="Sun">
+<"sun.PNG" alt="Sun">
 </a>
 </div>
-<form method="get" action="/search" target="_blank">
-<input name="q" id="poisk" value="" placeholder="Choose your city"> <input src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png" type="image" /></form>
+
 </header>
+
 <article>
 <div id="city">
-<span>Lviv</span>
+<span id="location"</span>
 </div>
 </article>
 <section>
 
-<div class="night">
+<div id="night">
 <p>Night</p>
+<p id="tempNight"</p>
+ <p id="weathericon"> <img id="weatherIcon" src="images/icon/0d.png" alt="Wheather icon"/></p>
+
 </div>
 
-<div class="morning">
+<div id="morning">
 <p>Morning</p>
+<p id="tempMorning"</p>
 </div>
-<div class="day">
+<div id="day">
 <p>Day</p>
+<p id="tempDay"</p>
+ <p id="weathericon"> <img id="weatherIcon" src="images/icon/0d.png" alt="Wheather icon"/></p>
 </div>
-<div class="evening">
+<div id="evening">
 <p>Evening</p>
+<p id="tempEvening"</p>
 </div>
 
 </section>
@@ -59,11 +71,11 @@
 <footer></footer>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
-<script type="text/javascript" src="JS/getCurrentWeather.js"</script>
-<script type="text/javascript" src="JS/getWeatherbyCity.js"</script>
-<script type="text/javascript" src="JS/javascript.js"</script>
+        <script type="text/javascript" src="JS/javascript.js"></script>
+        <script type="text/javascript" src="JS/getWeatherbyCity.js"></script>
+        <script type="text/javascript" src="JS/getCurrentWeather.js"></script>
+        
+
+
 </body>
-
-
-
 </html>

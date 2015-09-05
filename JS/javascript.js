@@ -1,7 +1,7 @@
 $(function() {
 
    $('#btnWeather').click(function () {
-        getWeatherByCity('en', showDate, showErr, $('#inputCityName').val());
+        getWeatherbyCity('en', showDate, showErr, $('#inputCityName').val());
     });
     $('#inputCityName').keypress(function(e) {
         var ENTER_KEY_CODE = 13;
@@ -35,7 +35,7 @@ $(function() {
         $('#tempDay').html(tempDay);
         $('#tempNight').html(tempNight);
         $('#description').html(description);
-        $('#weathericon').html('<p>'+'<img src="images/sighs/' + weathericon + '.png" />' + '</p>');
+        $('#weathericon').html('<p>'+'<img src="images/icon/' + weathericon + '.png" />' + '</p>');
         $('#table tr:last').after('<tr>' + '<td>' + 'Wind  ' + windSpeed + 'm/c' + '</td>' + '<td>' + bits + 'mmhg' + '</td>' +'<td>' + humidity + '%' + '</td>' + '</tr>');
         
     

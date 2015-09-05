@@ -19,7 +19,7 @@ header {
 	height:48px;
 	width:1348px;
 	background:#806B6B;
-	opacity:0.5;
+	
 	font-family:Tahoma, Geneva, sans-serif;
 }
 #header_nav {
@@ -28,6 +28,7 @@ header {
 	height:45px;
 	margin:20px 0;
 	text-align:center;
+	opacity:0.5;
 }
 #header_nav ul {
 	display:inline-block;
@@ -75,7 +76,7 @@ section {
 	
 
 
-.day_first {
+#day_first {
 	display:block;
 	height:250px;
 	width:90px;
@@ -86,7 +87,7 @@ section {
 	margin:2px;
 }
 
-.day_second {
+#day_second {
 	display:block;
 	height:250px;
 	width:90px;
@@ -97,7 +98,7 @@ section {
 	border: solid 1px #000000;
 	margin:2px;
 }
-.day_third {
+#day_third {
 	display:block;
 	height:250px;
 	width:90px;
@@ -108,7 +109,7 @@ section {
 	border: solid 1px #000000;
 	margin:2px;
 }
-.day_four {
+#day_four {
 	display:block;
 	height:250px;
 	width:90px;
@@ -119,7 +120,7 @@ section {
 	border: solid 1px #000000;
 	margin:2px;
 }
-.day_five {
+#day_five {
 	display:block;
 	height:250px;
 	width:90px;
@@ -130,7 +131,7 @@ section {
 	border: solid 1px #000000;
 	margin:2px;
 }
-.day_six {
+#day_six {
 	display:block;
 	height:250px;
 	width:90px;
