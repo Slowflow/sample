@@ -60,6 +60,13 @@ li {
 	list-style-type:none;
 }
 
+aticle #city {
+	
+	height:200px;
+	width:200px;
+	text-align:center;
+}
+
 section {
 	position: absolute;
 	top:163px;

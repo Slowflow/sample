@@ -101,7 +101,7 @@ section {
 
 #night {
 	display:block;
-	height:300px;
+	height:100px;
 	width:150px;
 	float:left;
 	text-align:center;
@@ -115,7 +115,7 @@ section {
 
 #morning {
 	display:block;
-	height:300px;
+	height:100px;
 	width:150px;
 	float:left;
 	text-align:center;
@@ -128,7 +128,7 @@ section {
 }
 #day {
 	display:block;
-	height:300px;
+	height:100px;
 	width:150px;
 	float:left;
 	text-align:center;
@@ -142,7 +142,7 @@ section {
 }
 #evening {
 	display:block;
-	height:300px;
+	height:100px;
 	width:150px;
 	float:left;
 	text-align:center;
