@@ -68,8 +68,8 @@ aticle #city {
 }
 
 section {
-	position: absolute;
-	top:163px;
+	position:block;
+	top:400px;
 	bottom:0px;
 	left:320px;
 	height:260px;
