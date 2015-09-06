@@ -20,6 +20,8 @@ $(function() {
         var country = data.city.country;
         var tempDay = data.list[0].temp.day;
         var tempNight = data.list[0].temp.night;
+        var tempMorning = data.list[0].temp.morn; 
+        var tempEvening = data.list[0].temp.eve;
         var description = data.list[0].weather[0].description;
         var windSpeed = data.list[0].speed;
         var humidity = data.list[0].humidity;
@@ -30,10 +32,12 @@ $(function() {
         var bits = (pressureMMHG).toFixed(3);
            
         
-        $("#table tr:not(:first)").remove();
+        
         $('#location').html(city + ', <strong>' + country + '</strong>');
-        $('#tempDay').html(tempDay);
-        $('#tempNight').html(tempNight);
+        $('#tempDay').html(tempDay.toFixed(0));
+        $('#tempNight').html(tempNight.toFixed(0));
+        $('#tempMorning').html(tempMorning.toFixed(0));
+        $('#tempEvening').html(tempEvening.toFixed(0));
         $('#description').html(description);
         $('#weathericon').html('<p>'+'<img src="images/icon/' + weathericon + '.png" />' + '</p>');
         $('#table tr:last').after('<tr>' + '<td>' + 'Wind  ' + windSpeed + 'm/c' + '</td>' + '<td>' + bits + 'mmhg' + '</td>' +'<td>' + humidity + '%' + '</td>' + '</tr>');

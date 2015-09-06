@@ -141,7 +141,7 @@ section {
 	border: solid 1px #000000;
 	margin:2px;
 }
-.day_seven {
+#day_seven {
 	display:block;
 	height:250px;
 	width:90px;
