@@ -84,6 +84,16 @@ article {
 	font-size:40px;
 	
 	}
+article {
+    position:absolute;
+	height:300px;
+	width:400px;
+	text-align:center;
+	right:100px;
+	font-family: Tahoma, Geneva, sans-serif;
+
+}	
+
 			
 
 
