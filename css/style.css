@@ -19,7 +19,7 @@ header {
 	height:48px;
 	width:1348px;
 	background:#806B6B;
-	
+	opacity:0.5;
 	font-family:Tahoma, Geneva, sans-serif;
 }
 #header_nav {
@@ -60,16 +60,23 @@ li {
 	list-style-type:none;
 }
 
-aticle #city {
-	
+article {
+	position:absolute;
 	height:200px;
 	width:200px;
 	text-align:center;
+	opacity:0.5;
+}
+#location {
+	display:block;
+	border:solid 10px;
+	width:400px;
+	
 }
 
 section {
 	position:block;
-	top:400px;
+	top:300px;
 	bottom:0px;
 	left:320px;
 	height:260px;
@@ -161,23 +168,4 @@ section {
 	
 
 
-.night {
-	display:block;
-	height:250px;
-	width:90px;
-	float:left;
-	text-align:center;
-	border-radius:10px;
-	padding:2px;
-	border: solid 1px #000000;
-	margin:2px;
-}
-footer {
-	position:absolute;
-	top:900px;	
-	height:48px;
-	width:1348px;
-	background:#806B6B;
-	opacity:0.5;
-}
 

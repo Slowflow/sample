@@ -12,37 +12,29 @@
         <header>
             <div id="header_nav"> 
                 <ul>
-                   <li><a href="weather_7_days.html">Weather for 7 days</a></li>
-                   <li><a href="contact.html">Contact</a></li>
-                   <li><a href="#">About</a></li>
                    <li><a href="index.html">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="Weather_7_days.html">Weather for 7 days</a></li>
                 </ul>
             </div>
-            <form id="cityNameForm">
-                <button type="button" id="btnWeather" value="Show">Search</button><input type="text" name="cityName" placeholder="Choose your city" id="inputCityName">
-            </form>
-        <div id="logo">
-        <a href="index.html">
-        <"sun.PNG" alt="Sun">
-        </a>
-        </div>
-        
         </header>
-        
+        <form id="cityNameForm">
+                <input type="text" name="cityName" placeholder="Choose your city" id="inputCityName"><button type="button" id="btnWeather">Search</button>
+            </form>
         <article>
             <div id="city">
-            <span id="location"</span>
+            <span id="location"></span>
             </div>
-            <p id="weathericon"> <img id="weatherIcon" src="images/icon/01n.png" alt="Wheather icon"/></p>
+            <p id="wheathericon"> <img id="wheatherIcon" src="images/icon/01n.png" alt="Wheather icon"/></p>
             <p><span id="description"></span></p>
 
         </article>
     
-        <section>
+        <section id="weather_for_day"class="center">
             <div id="night">
                 <p>Night:</p>
-                <p id="tempNight"</p>
-                <p><span id="description"></span></p>
+                <p id="tempNight"></p>
             </div>
             
             <div id="morning">

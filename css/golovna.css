@@ -1,112 +1,79 @@
 * {
 	margin:0px;
 	padding:0px;
+	
+}
+li {
+    list-style-type: none;
 }
 body {
 	
 	background-image:url(../images/cloud.jpg);
 }
-#wrapper{
-	
-	display:block;
-	width:1200px;
-	height:900px;
-}
-	
 
 header {
-	position:absolute;
-	top:0px;	
-	height:48px;
-	width:1348px;
+	width:100%;
 	background:#806B6B;
 	opacity:0.5;
-	font-family:Tahoma, Geneva, sans-serif;
+	overflow:hidden;
 }
 #header_nav {
-	position:relative;
-	overflow:hidden;
-	height:45px;
-	margin:20px 0;
-	text-align:center;
+	margin:10px 0;
+	
 }
 #header_nav ul {
-	display:inline-block;
-	list-style: none;
-	margin:0px;
-	padding:0px;
-	position:relative;
-	
+	overflow:hidden;
+	text-align:center;
 	
 }
 
 #header_nav ul li {
-	float:right;
+	display:inline-block;
 	margin: 0px 10px;
-	background:#EF8C8E;	
+	padding:5px 50px;
+	background:#444;	
 	border-radius: 20px;
 	
 }
 #header_nav ul li a {
-	display:inline-block;
+
 	text-decoration:none;
-	padding:5px 50px;
-	border-radius: 20px;
-    background-color:#444;
 	color:#FFFFFF;
 
 }
-li {
-	list-style-type:none;
-}
 
-.logo {
-	position:absolute;
-	margin:4px 30px;
-	top:35px;
-	opacity:0.9;
-}
-
-.logo img {
-	width:70px;
+#wrapper{
+	
+	margin:auto;
+	width:1200px;
 	
 }
 article {
-	position: absolute;
-	top:150px;
-	left:610px;
-	height:18px;
-	width:100px;
-	text-align: center;
-	font-family: Tahoma, Geneva, sans-serif;
-	}
-#city {
-	font-size:40px;
-	
-	}
-article {
-    position:absolute;
-	height:300px;
-	width:400px;
+	margin:40px 0;
+
+}
+article p {
 	text-align:center;
-	right:100px;
-	font-family: Tahoma, Geneva, sans-serif;
-
-}	
-
-			
-
+}
+#city {	
+	width:400px;
+	margin:0 auto;
+	text-align:center;
+}
+ #city #location {
+	font-size:40px;
+}
+#city  #wheathericon {
+	text-align:center;
+}
 
 section {
-	position: absolute;
-
-	top:550px;
-	left:350px;
-	height:310px;
-	width:640px;
-	text-align: center;
-	font-family: Tahoma, Geneva, sans-serif;
-	
+	text-align:center;
+}
+.center {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 #night {
@@ -163,19 +130,20 @@ section {
 	border: solid 1px #000000;
 	margin:1px;
 }
-footer {
-	position:absolute;
-	top:900px;	
-	height:48px;
-	width:1348px;
-	background:#806B6B;
-	
-	opacity:0.5;
-	}
-	#poisk {
-		position:absolute;
-		float:right;
-		width:500px;
-	}
-
-	
+#cityNameForm {
+	 text-align: right;
+}
+#cityNameForm input {
+	padding: 3px 5px;
+    border-radius: 15px 0px 0px 15px;
+	border:1px solid silver;	
+}
+#cityNameForm input:focus{
+outline: 0;
+}
+#cityNameForm button {
+  padding: 3px 5px;
+  border-radius: 0px 15px 15px 0px;
+  border:1px solid silver;
+  cursor:pointer;
+}
