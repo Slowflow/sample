@@ -40,7 +40,7 @@ $(function() {
         $('#tempEvening').html(tempEvening.toFixed(0));
         $('#description').html(description);
         $('#weathericon').html('<p>'+'<img src="images/icon/' + weathericon + '.png" />' + '</p>');
-        $('#table tr:last').after('<tr>' + '<td>' + 'Wind  ' + windSpeed + 'm/c' + '</td>' + '<td>' + bits + 'mmhg' + '</td>' +'<td>' + humidity + '%' + '</td>' + '</tr>');
+        
         
     
     }

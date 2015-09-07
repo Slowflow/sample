@@ -66,6 +66,9 @@ article p {
 #city  #wheathericon {
 	text-align:center;
 }
+#description {
+	font-size:20px;
+}
 
 section {
 	text-align:center;
@@ -76,60 +79,34 @@ section {
     padding: 10px;
 }
 
-#night {
-	display:block;
-	height:100px;
-	width:150px;
-	float:left;
-	text-align:center;
-	padding:2px;
-	border-radius:20px;
-	background-image:url(../images/night.jpg);
-	color:#68BFCA;
-	border: solid 1px #000000;
-	margin:2px;
+#weather_for_day div {
+    display: inline-block;;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+    color: #68BFCA;
+    border: solid 1px #000000;
+    margin: 2px;
+}
+#weather_for_day div#night {
+    background-image: url(../images/night.jpg);
 }
 
-#morning {
-	display:block;
-	height:100px;
-	width:150px;
-	float:left;
-	text-align:center;
-	padding:2px;
-	border-radius:20px;
-	background-image:url(../images/morning.jpg);
-	color:#68BFCA;
-	border: solid 1px #000000;
-	margin:1px;
+#weather_for_day div#morning {
+    background-image: url(../images/morning.jpg);
 }
-#day {
-	display:block;
-	height:100px;
-	width:150px;
-	float:left;
-	text-align:center;
-	padding:2px;
-	border-radius:20px;
-	background-image:url(../images/day.jpg);
-	color:#68BFCA;
-	border:solid 1px #000000;
-	margin:1px;
-	
+
+#weather_for_day div#day {
+    background-image: url(../images/day1.jpg);
 }
-#evening {
-	display:block;
-	height:100px;
-	width:150px;
-	float:left;
-	text-align:center;
-	padding:2px;
-	border-radius:20px;
-	background-image:url(../images/evening.PNG);
-	color:#68BFCA;
-	border: solid 1px #000000;
-	margin:1px;
+
+#weather_for_day div#evening {
+    background-image: url(../images/evening.PNG);
 }
+
+
 #cityNameForm {
 	 text-align: right;
 }
@@ -146,4 +123,9 @@ outline: 0;
   border-radius: 0px 15px 15px 0px;
   border:1px solid silver;
   cursor:pointer;
+  
+}
+
+#contact{
+	padding:250px;
 }
